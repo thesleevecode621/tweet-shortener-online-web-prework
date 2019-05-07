@@ -13,4 +13,4 @@ def dictionary
   }
 end.
 def word_substituter(tweet)
-  tweetarray= tweet.split
+  tweetarray= tweet.split.collect
